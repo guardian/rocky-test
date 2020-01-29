@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@guardian/rocky": "^0.0.3",
+    "@zeit/ncc": "^0.21.0",
+    "aws-lambda": "^1.0.5",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.40"
+  },
+  "scripts": {
+    "build": "ncc build src/index.ts -o dist -m -e aws-sdk",
+    "upload": "rocky run r.ts dryRun"
+  }
+}
