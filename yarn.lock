@@ -186,10 +186,10 @@
     yaml "^1.7.2"
     yargs "^15.1.0"
 
-"@guardian/rocky@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@guardian/rocky/-/rocky-0.0.3.tgz#08293ab803a0253d7792db311fc0cff5cafc3da7"
-  integrity sha512-LSFXqdpTJR3d7NYPKASzBk/pZmwtfZU+xAaAqG2THC6B3z5ZV+k/RzBxWknV7ve01MEw/pfM2p0VWmCLwKOVJQ==
+"@guardian/rocky@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@guardian/rocky/-/rocky-0.0.4.tgz#f10417a75ad19e47f6a2da7ff61e220cc1fc3ec6"
+  integrity sha512-Q0WHgFdycmpVXqafexdxTlJAhaeOxW7aTeBMo+EMZXCLV1nsV7GIcZQjczUcEEz2+IV9jYCmZZcD9VeyJ6jrpA==
   dependencies:
     "@aws-cdk/aws-lambda" "^1.22.0"
     "@aws-cdk/aws-s3" "^1.22.0"
@@ -198,6 +198,7 @@
     "@types/node" "^13.5.0"
     "@types/yaml" "^1.2.0"
     aws-cdk "^1.22.0"
+    core-js "^3.6.4"
     ts-node "^8.6.2"
     typescript "^3.7.5"
     yaml "^1.7.2"
@@ -586,6 +587,11 @@ core-js@^2.6.5:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
   integrity sha512-5wjnpaT/3dV+XB4borEsnAYQchn00XSgTAWKDkEqv+K8KevjbzmofK6hfJ9TZIlpj2N0xQpazy7PiRQiWHqzWg==
+
+core-js@^3.6.4:
+  version "3.6.4"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.4.tgz#440a83536b458114b9cb2ac1580ba377dc470647"
+  integrity sha512-4paDGScNgZP2IXXilaffL9X7968RuvwlkK3xWtZRVqgd8SYNiVKRJvkFd1aqqEuPfN7E68ZHEp9hDj6lHj4Hyw==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
