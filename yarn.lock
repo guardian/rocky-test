@@ -186,10 +186,10 @@
     yaml "^1.7.2"
     yargs "^15.1.0"
 
-"@guardian/rocky@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@guardian/rocky/-/rocky-0.0.6.tgz#dce3beaa12b595ca0815ebb647e15b4b4f263974"
-  integrity sha512-4s0UvfoaSyp4A6tL8kAyL+UfJQusWL9s2ibIAFD4ilk5xB2G/szmTIUBu6q42suLQCi0j6+Lmq0MZd1T57btLA==
+"@guardian/rocky@0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@guardian/rocky/-/rocky-0.0.7.tgz#fd0031d9de5668674241afdcde2acec0c0cbb2a9"
+  integrity sha512-wbFE0XdGtzPGg0xVZolkLhBSMKXH67JR58Xv7MYOn22WlDjMr34Ai83mnz7Z8HmbfAPXHd3vTmBIwx4LYJ1+bQ==
   dependencies:
     "@aws-cdk/aws-lambda" "^1.22.0"
     "@aws-cdk/aws-s3" "^1.22.0"
